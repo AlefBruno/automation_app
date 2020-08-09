@@ -1,7 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'alefbruno/automation_ruby:0.1.0'
+      image 'budtmo/docker-android-x86-10.0'
+      args '--privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S10"'
     }
   }
   stages {
