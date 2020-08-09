@@ -1,0 +1,10 @@
+##YAML Template
+default: -p Pixel3a -p html
+ci: -p Pixel3a -p json_report
+
+# Devices
+Pixel3a: DEVICE_TYPE=Pixel3a
+
+# Reports
+html: --format pretty --format html --out=reports/report.html
+json: --format pretty --format json --out=reports/report.json

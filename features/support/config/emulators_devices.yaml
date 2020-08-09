@@ -1,0 +1,7 @@
+Pixel3a:
+  caps:
+    deviceName: "Pixel3a"
+    platformName: "Android"
+    app: 'apk/desafio-ame-digital.apk'
+    newCommandTimeout: "10000"
+    autoGrantPermissions: true
